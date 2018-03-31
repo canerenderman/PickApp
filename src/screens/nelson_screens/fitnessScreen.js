@@ -8,7 +8,7 @@ import {
     StyleSheet,
     Alert,
     TouchableOpacity,
-    PixelRatio
+    FlatList
 } from 'react-native';
 import {NavigationToolBarIOS} from 'react-native-navigation';
 // import Permissions from 'react-native-permissions';
@@ -73,7 +73,7 @@ class fitnessScreen extends Component {
     };
 
     getData(title){
-        fetch('https://pickapp-test.herokuapp.com/api/users/1/inputs', {
+        var data = fetch('https://pickapp-test.herokuapp.com/api/users', {
             method: 'GET',
             headers: {
                 'Accept': 'application/json',
@@ -81,10 +81,22 @@ class fitnessScreen extends Component {
             },
             body: "title="+title,
         });
+        // if (data != null) {
+        //
+        // } else {
+        //     this.setState({
+        //         // isLoading: false,
+        //         dataSource: data,
+        //     }, function(){
+        //     });
+        // }
+
+        console.log(data);
+        return data;
     }
 
-
     render(){
+        this.getData('Nelson')
         return (
             <View
                 style={styles.cellContainer}>
@@ -114,6 +126,11 @@ class fitnessScreen extends Component {
                                         <TouchableOpacity
                                             style={[styles.button, styles.button1]}
                                             onPress={this.onPushAnother}>
+                                            {/*<FlatList*/}
+                                                {/*data={this.getData()}*/}
+                                                {/*renderItem={({item}) => <Text>{item.title}, {item.releaseYear}</Text>}*/}
+                                                {/*// keyExtractor={(item, index) => index}*/}
+                                            {/*/>*/}
                                             <Text style={styles.textStyle}> Push another </Text>
                                         </TouchableOpacity>
                                         <TouchableOpacity
