@@ -25,81 +25,8 @@ export default class FacilityButtonBasketball extends Component {
             sub_gym_arr: [],
         }
 
-        // if (this.state.sport === 'Basketball'){
-        //     console.log("Annen");
-        //     this.populateSubGymArr(
-        //         <TouchableOpacity style={styles.sub_sub_gym} key={1} onPress={() => this.toggleRatingViewVisibility()}>
-        //             <ImageBackground style={styles.image} source={require('./Icons/basketball_court.png')}>
-        //                 <Text style={{textAlign: 'center', fontSize: 25, color: 'white', opacity: 1, padding: 0}}>1</Text>
-        //             </ImageBackground>
-        //         </TouchableOpacity>
-        //     );
-        //     this.populateSubGymArr(
-        //         <TouchableOpacity style={styles.sub_sub_gym} key={2} onPress={() => this.toggleRatingViewVisibility()}>
-        //             <ImageBackground style={styles.image} source={require('./Icons/basketball_court.png')}>
-        //                 <Text style={{textAlign: 'center', fontSize: 25, color: 'white', opacity: 1, padding: 0}}>2</Text>
-        //             </ImageBackground>
-        //         </TouchableOpacity>
-        //     );
-        //     this.populateSubGymArr(
-        //         <TouchableOpacity style={styles.sub_sub_gym} key={3} onPress={() => this.toggleRatingViewVisibility()}>
-        //             <ImageBackground style={styles.image} source={require('./Icons/basketball_court.png')}>
-        //                 <Text style={{textAlign: 'center', fontSize: 25, color: 'white', opacity: 1, padding: 0}}>3</Text>
-        //             </ImageBackground>
-        //         </TouchableOpacity>
-        //     );
-        // }
-
-
     }
 
-    // populateSubGymArr(view){
-    //     this.setState({
-    //         sub_gym_arr: this.state.sub_gym_arr.push(view),
-    //     });
-    //     console.log("ARR = ", this.state.sub_gym_arr.length);
-    // }
-
-    // toggleRatingViewVisibility(){
-    //     this.setState({
-    //         isRatingViewVisible: true,
-    //     });
-    // }
-
-    // toggleSubGymVisibility(){
-    //     console.log("ANNEN")
-    // 	this.setState({
-    //         areSubGymsVisible: !this.state.areSubGymsVisible,
-    //         isRatingViewVisible: false,
-    //     });
-    // }
-
-    // _renderRatingView(){
-    //     if (this.state.isRatingViewVisible){
-    //         console.log("is visible");
-    //         return (
-    //             <View style={styles.rating_view}>
-    //                 <Text style={styles.sub_gym_header}>Enter Occupancy</Text>
-    //                 <TextInput
-    //                     style={styles.input}
-    //                     placeholder={this.state.text}
-    //                     onChangeText={(text) => this.setState({text})}/>
-    //                 <Button title="Submit"></Button>
-    //             </View>
-    //         );
-    //     } else {
-    //         console.log("is invisible");
-    //         return null;
-    //     }
-    // }
-
-    // _renderSubGymHeader(){
-    //     if (!this.state.isRatingViewVisible){
-    //         return(
-    //             <Text style={styles.sub_gym_header}>Pick a Court</Text>
-    //         );
-    //     }
-    // }
 
     postRequest() {
         var url = "https://pickapp-test.herokuapp.com/api/users/1/fitness";

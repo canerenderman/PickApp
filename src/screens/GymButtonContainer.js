@@ -5,6 +5,7 @@ import {
     Text,
     StyleSheet,
     Button,
+    Image,
     TouchableOpacity
 } from 'react-native';
 
@@ -29,6 +30,8 @@ export default class GymButtonContainer extends Component{
             availabilityText: '',
             upcomingEvents: [],
             happeningEvents: [],
+            gymColor: '',
+            iconPath:'',
         };
         var gymNumber;
         switch (this.state.gymName){
@@ -71,24 +74,36 @@ export default class GymButtonContainer extends Component{
                 }
                 var value;
                 var txt;
+                var clr;
+                var icon;
                 if (myThis.state.subGymName == 'Fitness') {
                     value = Math.round(Number(avail*(100/181))) + "%";
-                    txt = 'of Max\nCapacity';
+                    txt = 'of Max Capacity';
+                    clr = '#bfae00';//'#BFAE00';
+                    icon = require('./Icons/gym.png');
                 } else if (myThis.state.subGymName == 'Pool'){
                     value = Math.round(Number(avail/8));
-                    txt = 'People per\nLane';
+                    txt = 'People per Lane';
+                    clr = '#66b3c3';//'#66B3C3'
+                    icon = require('./Icons/pool.png');
                 } else if(myThis.state.subGymName == 'Basketball') {
                     value = Math.round(Number(avail/4));
-                    txt = 'People per\nCourt';
+                    txt = 'People per Court';
+                    clr = '#de8100';//'#DE8100';
+                    icon = require('./Icons/basketball_court.png');
                 } else if (myThis.state.subGymName == 'Track'){
                     value = Math.round(Number(avail/6));
-                    txt = 'People per\nLane';
+                    txt = 'People per Lane';
+                    clr = '#b82a22';//'#B82A22';
+                    icon = require('./Icons/tracks.png');
                 }
                 if (avail !== 0 && value === 0){ value++; }
                 myThis.setState({
                     availability: avail,
                     availability2: value,
-                    availabilityText: txt
+                    availabilityText: txt,
+                    gymColor: clr,
+                    iconPath: icon,
                 });
             });
     }
@@ -143,31 +158,34 @@ export default class GymButtonContainer extends Component{
 
     render(){
         return(
-            <View style={styles.subGym}>
-                <View style={styles.subGymSubHeader}>
-                    <Text style={styles.marginText}>
-                        {this.state.subGymName}
-                    </Text>
+            <View style={[styles.subGym, {borderColor: this.state.gymColor}]}>
+                <View style={styles.subGymSubHeader1}>
+                    <View style={styles.subGymSubHeader}>
+                        <Image style={styles.image} source={this.state.iconPath}/>
+                        <Text style={[styles.marginText, {color:this.state.gymColor}]}>
+                            {this.state.subGymName}
+                        </Text>
+                    </View>
                 </View>
                 <View style={styles.subGymTabContainer}>
                     <View style={styles.subGymTab}>
                         {/*<Text style={styles.availabilityHeader}>Occupation</Text>*/}
-                        <Text style={{fontSize: 25}}># of People</Text>
                         <Text style={styles.availabilityValue}>{this.state.availability}</Text>
+                        <Text style={{fontSize: 15}}>people total</Text>
                     </View>
                     <View style={styles.subGymTab}>
                         {/*<Text style={styles.availabilityHeader}>Availability</Text>*/}
-                        <Text style={{fontSize: 25, textAlign: 'center', marginTop: 2}}>{this.state.availabilityText}</Text>
                         <Text style={styles.availabilityValue}>{this.state.availability2}</Text>
+                        <Text style={{fontSize: 15, textAlign: 'center', marginTop: 2}}>{this.state.availabilityText}</Text>
                     </View>
-                    <View style={styles.subGymTab}>
-                        {/*<Text style={styles.availabilityHeader}>Coming Up</Text>*/}
-                        <View style={styles.upcomingEventsContainer}>
-                            <Alert count={this.state.upcomingEvents[1]} minutesAway={this.state.upcomingEvents[0]}></Alert>
-                            <Alert count={this.state.happeningEvents[1]} minutesAway={null}></Alert>
-                        </View>
-                        <TouchableOpacity style={styles.subGymHeader} onPress={() => this.props.pushScreen("FacilityCalendarPage", {gymName: this.state.gymName, subGymName: this.state.subGymName})}><Text style={{fontSize: 7, color: '#657786', textAlign: 'center'}}>See more</Text></TouchableOpacity>
+                </View>
+                <View style={styles.subGymTab1}>
+                    {/*<Text style={styles.availabilityHeader}>Coming Up</Text>*/}
+                    <View style={styles.upcomingEventsContainer}>
+                        <Alert count={this.state.upcomingEvents[1]} minutesAway={this.state.upcomingEvents[0]}></Alert>
+                        <Alert count={this.state.happeningEvents[1]} minutesAway={null}></Alert>
                     </View>
+                    <TouchableOpacity style={styles.subGymHeader} onPress={() => this.props.pushScreen("FacilityCalendarPage", {gymName: this.state.gymName, subGymName: this.state.subGymName})}><Text style={{fontSize: 7, color: '#657786', textAlign: 'center'}}>See more</Text></TouchableOpacity>
                 </View>
             </View>
         );
@@ -187,46 +205,66 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     subGymTabContainer: {
-        flexDirection: 'column',
-        justifyContent: 'space-around',
-        alignItems: 'center',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        // alignItems: 'center',
         // backgroundColor: 'red',
+        // height: 100,
+        width: 250,
         marginTop: 10,
-        width: 300,
         // marginLeft: 10,
         padding: 2,
 
     },
-
+    image: {
+        // flex: 0.3,
+        width: 25,
+        height: 25,
+        resizeMode: 'contain',
+        alignItems: 'center',
+        justifyContent:'center',
+        opacity: 0.8,
+    },
     subGym: {
         backgroundColor: '#f6f6f6',//'#ECECF7',
         opacity: 0.8,
         // borderColor: '#C7CBD1',
-        // borderWidth: 1,
-        height: 350,
+        borderWidth: 2,
+        height: 250,
+        width: 320,
         padding: 5,
         margin: 5,
         paddingRight: 10,
         paddingLeft: 10,
         borderRadius: 20,
-        shadowColor: '#808080',
-        shadowOffset: { width: 1, height: 1 },
-        shadowOpacity: 0.2,
-        shadowRadius: 2,
+        // shadowColor: '#808080',
+        // shadowOffset: { width: 1, height: 1 },
+        // shadowOpacity: 0.4,
+        // shadowRadius: 2,
+        alignItems: 'center',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
     },
 
     subGymTab: {
         // backgroundColor: 'blue',
-        height: 120,
+        // height: 120,
         alignItems: 'center',
-        flexDirection: 'row',
-        justifyContent: 'space-around',
-        width: 250,
+        flexDirection: 'column',
+        justifyContent: 'center',
+        width: 120,
+    },
+    subGymTab1: {
+        // backgroundColor: 'blue',
+        // height: 120,
+        alignItems: 'center',
+        flexDirection: 'column',
+        justifyContent: 'space-between',
     },
 
     availabilityHeader: {
         textAlign: 'left',
-        fontSize: 20,
+        fontSize: 25,
         fontWeight: 'bold',
     },
 
@@ -239,15 +277,26 @@ const styles = StyleSheet.create({
     subGymSubHeader: {
         // backgroundColor: 'yellow',
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        borderColor: '#E6ECF0',
+        width: 150,
+        // paddingBottom: 2,
+        // borderBottomWidth: 1,
+        // marginTop: 7
+
+    },
+    subGymSubHeader1: {
+        // backgroundColor: 'orange',
+        flexDirection: 'row',
+        // justifyContent: 'center',
         alignItems: 'center',
         borderColor: '#E6ECF0',
         paddingBottom: 2,
         borderBottomWidth: 1,
-        marginTop: 7
-
+        marginTop: 7,
+        width: 300,
     },
-
     buttonCC: {
         // backgroundColor: 'black',
         padding: 20,
@@ -258,6 +307,7 @@ const styles = StyleSheet.create({
 
     buttonContainer: {
         height: 200,
+        width: 175,
         backgroundColor: 'yellow',
         flexDirection: 'column',
         alignItems: 'center',
@@ -279,7 +329,7 @@ const styles = StyleSheet.create({
     },
     marginText: {
         fontSize: 25,
-        color: '#DE8100',//'#14171A',
+        // color: '#DE8100',//'#14171A',
         textAlign: 'left',
     },
 
