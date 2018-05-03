@@ -43,12 +43,12 @@ export default class GymContainer extends Component{
         var end = new Date(new Date(myThis.state.openHours.endTime).getTime() + 4 * 60 * 60 * 1000);
         var minsFromEnd;
         var minsFromStart;
-        curr = new Date(new Date("2018-05-01T03:30:00").getTime() + 4 * 60 * 60 * 1000);
+        curr = new Date();
         if (curr >= start && curr <= end){
             minsFromEnd = (end.getTime() - curr.getTime()) / (60 * 1000);
             if (minsFromEnd <= 60){
                 myThis.setState({
-                    hourString: 'Closing in ' + minsFromEnd + ' minutes',
+                    hourString: 'Closing in ' + Math.ceil(minsFromEnd) + ' minutes',
                     alert: true,
                 });
             } else {
@@ -62,7 +62,7 @@ export default class GymContainer extends Component{
             minsFromStart = (start.getTime() - curr.getTime()) / (60 * 1000);
             if (minsFromStart <= 60){
                 myThis.setState({
-                    hourString: 'Opening in ' + minsFromStart + ' minutes',
+                    hourString: 'Opening in ' + Math.ceil(minsFromStart) + ' minutes',
                     alert: true,
                 });
             } else {
@@ -173,6 +173,68 @@ export default class GymContainer extends Component{
             availability: availabilityData,
         });
     }
+
+    // componentWillMount(){
+    //     console.log("A");
+    //     this.fetchHours();
+    //     // this.checkIfOpen();
+    //     // console.log("component will mount = ", this.state.openHours)
+    // }
+
+    // <View style={styles.gymContainer}>
+    //             <View style={styles.headerContainer}>
+    //                  <Text style={styles.headerText}>{this.state.gymName}</Text>
+    //                  <Text style={styles.marginText}>Choose a Sport</Text>
+    //              </View>
+    //              <View style={styles.buttonCC}>
+    //  	            <View
+    //  			        style={styles.button}
+    //  			        onPress={this.pushBasketballScreen}>
+    //  	                {this.createSubGyms()}
+    //  	            </View>
+    //              </View>
+    //         </View>
+
+
+// IMPORTANT: ENTRY SCREEN
+// _______________________
+
+    // <View style={styles.gymContainer}>
+    //             <View style={styles.headerContainer}>
+    //                  <Text style={styles.headerText}>{this.state.gymName}</Text>
+    //                  <Text style={styles.marginText}>Choose a Sport</Text>
+    //              </View>
+    //              <View style={styles.buttonCC}>
+    //                 {this.createSubGyms()}
+    //              </View>
+    //         </View>
+
+// IMPORTANT: PRESS SCREEN
+// _______________________
+
+    // displayNavigation(){
+    //     if (!this.state.displayMainPageHeader){
+    //         return(
+    //             <TouchableOpacity onPress={() => this.goToMainPage()}>
+    //                 <Text style={styles.navigation}>Go Back</Text>
+    //             </TouchableOpacity>
+    //         );
+    //     }
+    // }
+
+    // goToMainPage(){
+    //     if (this.state.hideAll){
+    //         this.setState({
+    //             displayMainPageHeader: false,
+    //             hideAll: false,
+    //         });
+    //     } else {
+    //         this.setState({
+    //             displayMainPageHeader: true,
+    //         });
+    //     }
+
+    // }
     displayAlert(){
         if (this.state.alert){
             return(
@@ -229,7 +291,6 @@ export default class GymContainer extends Component{
 const Dimensions = require('Dimensions');
 var _window = Dimensions.get('window');
 const styles = StyleSheet.create({
-
     navigation: {
         opacity: 0.6,
         color: '#f0f0f0',
@@ -314,4 +375,89 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         margin: 5,
     },
+
+    // navigation: {
+    //     opacity: 0.9,
+    //     color: '#14171A',
+    // },
+
+    // headerTextContainer: {
+    //     // backgroundColor: 'green',
+    // },
+
+    // gymContainer: {
+    //     backgroundColor: 'transparent',//'white',
+    //     marginTop: 20,
+    //     marginBottom: 0,
+    //     borderRadius: 1,
+    //     // borderWidth: 2,
+    //     // borderColor: '#E6ECF0',
+    //     padding: 10,
+    //     shadowColor: '#000',
+    //     shadowOffset: { width: 0, height: 1 },
+    //     shadowOpacity: 0.4,
+    //     shadowRadius: 2,
+    //     width: _window.width,
+    // },
+
+    // buttonCC: {
+    //     // backgroundColor: 'black',
+    //     borderTopWidth: 1,
+    //     borderColor: '#E6ECF0',
+    //     padding: 20,
+    //     flexDirection: 'column',
+    //     alignItems: 'center',
+    //     justifyContent: 'center',
+    // },
+
+    // buttonContainer: {
+    // 	height: 200,
+    // 	backgroundColor: 'yellow',
+    //     flexDirection: 'column',
+    //     alignItems: 'center',
+    //     justifyContent: 'center',
+    // },
+
+    // headerContainer: {
+    //     // backgroundColor: 'blue',
+    //     width: _window.width,
+    //     height: 70,
+    //     flexDirection: 'row',
+    //     justifyContent: 'space-between',
+    //     alignItems: 'center',
+    // },
+
+    // headerText: {
+    //     color: '#14171A',
+    //     textAlign: 'left',
+    //     fontSize: 30,
+    // },
+    // marginText: {
+    //     color: '#14171A',
+    //     textAlign: 'left',
+    //     marginBottom: 10,
+    // },
+    // textStyle: {
+    //     color: 'white',
+    //     textAlign: 'center',
+    //     opacity: 1,
+    // },
+    // button: {
+    //     width: 230,
+    //     backgroundColor: 'green',
+    //     flexDirection: 'column',
+    //     justifyContent: 'space-around',
+    //     height: 100,
+    // },
+    // subGymHeader: {
+    //     width: 200,
+    // 	backgroundColor: 'purple',
+    //     textAlign: 'center',
+    // 	padding: 7,
+    // },
+    // subGymBody: {
+    // 	flex: 1,
+    // 	backgroundColor: 'white',
+    // 	margin: 5,
+    // },
 });

@@ -7,36 +7,11 @@
     <list default="true" id="bc4a8fb2-5f36-4e7e-ae5b-8280006a185c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/ios/PickApp.xcodeproj/project.xcworkspace/xcuserdata/canerenderman.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/ios/PickApp.xcodeproj/project.xcworkspace/xcuserdata/canerenderman.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/BVLinearGradient.build/Debug-iphonesimulator/BVLinearGradient.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/BVLinearGradient.build/Debug-iphonesimulator/BVLinearGradient.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/PickApp.build/Debug-iphonesimulator/PickApp.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/PickApp.build/Debug-iphonesimulator/PickApp.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/PickApp.build/Debug-iphonesimulator/PickAppTests.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/PickApp.build/Debug-iphonesimulator/PickAppTests.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTBlob.build/Debug-iphonesimulator/RCTBlob.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTBlob.build/Debug-iphonesimulator/RCTBlob.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTGeolocation.build/Debug-iphonesimulator/RCTGeolocation.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTGeolocation.build/Debug-iphonesimulator/RCTGeolocation.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTImage.build/Debug-iphonesimulator/RCTImage.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTImage.build/Debug-iphonesimulator/RCTImage.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTLinking.build/Debug-iphonesimulator/RCTLinking.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTLinking.build/Debug-iphonesimulator/RCTLinking.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTSettings.build/Debug-iphonesimulator/RCTSettings.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTSettings.build/Debug-iphonesimulator/RCTSettings.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTText.build/Debug-iphonesimulator/RCTText.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTText.build/Debug-iphonesimulator/RCTText.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/fishhook.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/RCTWebSocket.build/Debug-iphonesimulator/fishhook.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/React.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/React.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/cxxreact.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/double-conversion.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/jschelpers.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/jschelpers.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/jsinspector.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/jsinspector.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/privatedata.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/privatedata.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/third-party.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/yoga.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/React.build/Debug-iphonesimulator/yoga.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/ReactNativeNavigation.build/Debug-iphonesimulator/ReactNativeNavigation.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/ReactNativeNavigation.build/Debug-iphonesimulator/ReactNativeNavigation.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/ReactNativePermissions.build/Debug-iphonesimulator/ReactNativePermissions.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates.noindex/ReactNativePermissions.build/Debug-iphonesimulator/ReactNativePermissions.build/dgph" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Logs/Build/Cache.db" afterPath="$PROJECT_DIR$/ios/build/Logs/Build/Cache.db" />
-      <change beforePath="$PROJECT_DIR$/ios/build/Logs/Build/E2992B75-C2FB-487D-AFD7-7A158BDA3427.xcactivitylog" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ios/build/info.plist" afterPath="$PROJECT_DIR$/ios/build/info.plist" />
-      <change beforePath="$PROJECT_DIR$/src/screens/FacilityButtonFitness.js" afterPath="$PROJECT_DIR$/src/screens/FacilityButtonFitness.js" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Alert.js" afterPath="$PROJECT_DIR$/src/screens/Alert.js" />
+      <change beforePath="$PROJECT_DIR$/src/screens/FacilityCalendar.js" afterPath="$PROJECT_DIR$/src/screens/FacilityCalendar.js" />
       <change beforePath="$PROJECT_DIR$/src/screens/GymButtonContainer.js" afterPath="$PROJECT_DIR$/src/screens/GymButtonContainer.js" />
+      <change beforePath="$PROJECT_DIR$/src/screens/GymContainer.js" afterPath="$PROJECT_DIR$/src/screens/GymContainer.js" />
+      <change beforePath="$PROJECT_DIR$/src/screens/HomeScreen.js" afterPath="$PROJECT_DIR$/src/screens/HomeScreen.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,84 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GymButtonContainer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/screens/GymButtonContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="242" column="27" lean-forward="true" selection-start-line="239" selection-start-column="7" selection-end-line="242" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GymContainer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/GymContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="242" column="25" lean-forward="false" selection-start-line="242" selection-start-column="25" selection-end-line="242" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacilityButtonBasketball.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/FacilityButtonBasketball.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="895">
-              <caret line="111" column="6" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="111" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonComponent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/ButtonComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="106" column="87" lean-forward="false" selection-start-line="106" selection-start-column="72" selection-end-line="106" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacilityButtonPool.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/FacilityButtonPool.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="132" column="85" lean-forward="false" selection-start-line="132" selection-start-column="69" selection-end-line="132" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacilityButtonTrack.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/FacilityButtonTrack.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1779">
-              <caret line="228" column="19" lean-forward="false" selection-start-line="228" selection-start-column="18" selection-end-line="228" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FacilityButtonFitness.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/screens/FacilityButtonFitness.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -155,6 +53,13 @@
       <find>subGym</find>
       <find>fetchAvailabilityData</find>
       <find>red</find>
+      <find>agenda</find>
+      <find>Court</find>
+      <find>Court 1</find>
+      <find>columnTitleContainer</find>
+      <find>border</find>
+      <find>blue</find>
+      <find>minDate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,14 +96,14 @@
         <option value="$PROJECT_DIR$/android/build.gradle" />
         <option value="$PROJECT_DIR$/src/screens/GreetingComponent.js" />
         <option value="$PROJECT_DIR$/src/screens/ButtonComponent.js" />
-        <option value="$PROJECT_DIR$/src/screens/Alert.js" />
-        <option value="$PROJECT_DIR$/src/screens/FacilityCalendar.js" />
         <option value="$PROJECT_DIR$/src/screens/FacilityCalendarPage.js" />
         <option value="$PROJECT_DIR$/src/screens/FacilityButtonBasketball.js" />
-        <option value="$PROJECT_DIR$/src/screens/HomeScreen.js" />
         <option value="$PROJECT_DIR$/src/screens/FacilityButtonFitness.js" />
-        <option value="$PROJECT_DIR$/src/screens/GymContainer.js" />
+        <option value="$PROJECT_DIR$/src/screens/FacilityCalendar.js" />
+        <option value="$PROJECT_DIR$/src/screens/Alert.js" />
         <option value="$PROJECT_DIR$/src/screens/GymButtonContainer.js" />
+        <option value="$PROJECT_DIR$/src/screens/GymContainer.js" />
+        <option value="$PROJECT_DIR$/src/screens/HomeScreen.js" />
       </list>
     </option>
   </component>
@@ -257,13 +162,6 @@
               <item name="PickApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PickApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PickApp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="screens" type="462c0819:PsiDirectoryNode" />
-              <item name="Icons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PickApp" type="b2602c69:ProjectViewProjectNode" />
@@ -481,16 +379,15 @@
       <workItem from="1524509228945" duration="1410000" />
       <workItem from="1524596681150" duration="1312000" />
       <workItem from="1524708098677" duration="1291000" />
-      <workItem from="1525237149860" duration="12719000" />
+      <workItem from="1525237149860" duration="16659000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88828000" />
+    <option name="totallyTimeSpent" value="92768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -507,7 +404,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14377682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761087" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -840,30 +737,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/Alert.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="3" lean-forward="false" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="751">
+          <caret line="228" column="28" lean-forward="false" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/HomeScreen.js">
+    <entry file="file://$PROJECT_DIR$/src/screens/GymButtonContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="142" column="34" lean-forward="false" selection-start-line="142" selection-start-column="34" selection-end-line="142" selection-end-column="34" />
+        <state relative-caret-position="737">
+          <caret line="707" column="6" lean-forward="false" selection-start-line="707" selection-start-column="6" selection-end-line="707" selection-end-column="6" />
           <folding>
-            <element signature="e#0#23#0" expanded="false" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/FacilityCalendar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9467">
-          <caret line="665" column="3" lean-forward="false" selection-start-line="665" selection-start-column="3" selection-end-line="665" selection-end-column="3" />
+        <state relative-caret-position="-2673">
+          <caret line="60" column="40" lean-forward="false" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/Alert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="240" column="6" lean-forward="false" selection-start-line="240" selection-start-column="6" selection-end-line="240" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/GymContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6930">
+          <caret line="462" column="3" lean-forward="false" selection-start-line="462" selection-start-column="3" selection-end-line="462" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/FacilityButtonBasketball.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="959">
+          <caret line="111" column="6" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="111" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ButtonComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="106" column="87" lean-forward="false" selection-start-line="106" selection-start-column="72" selection-end-line="106" selection-end-column="87" />
           <folding />
         </state>
       </provider>
@@ -884,49 +815,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/FacilityButtonBasketball.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="895">
-          <caret line="111" column="6" lean-forward="false" selection-start-line="103" selection-start-column="4" selection-end-line="111" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/FacilityButtonFitness.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/ButtonComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="106" column="87" lean-forward="false" selection-start-line="106" selection-start-column="72" selection-end-line="106" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/GymContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="242" column="25" lean-forward="false" selection-start-line="242" selection-start-column="25" selection-end-line="242" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screens/GymButtonContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="242" column="27" lean-forward="true" selection-start-line="239" selection-start-column="7" selection-end-line="242" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
