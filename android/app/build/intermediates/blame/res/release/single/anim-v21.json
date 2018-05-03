@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/sinem_derman/PickApp/android/app/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/sinem_derman/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/d7e143abe8d4603108f8e32f3f5410b2/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/sinem_derman/PickApp/android/app/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/sinem_derman/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/d7e143abe8d4603108f8e32f3f5410b2/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    }
+]

@@ -3591,6 +3591,13 @@ react-devtools-core@3.0.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+react-native-calendars@^1.18.2:
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/react-native-calendars/-/react-native-calendars-1.18.2.tgz#772106cc02559529e9032e7ea72431a442f8bcd9"
+  dependencies:
+    prop-types "^15.5.10"
+    xdate "^0.8.0"
+
 react-native-linear-gradient@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.4.0.tgz#51d8ea12bb72a59bede9edc87b694b16b64cf435"
@@ -4660,6 +4667,10 @@ xcode@^0.9.1:
     pegjs "^0.10.0"
     simple-plist "^0.2.1"
     uuid "3.0.1"
+
+xdate@^0.8.0:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/xdate/-/xdate-0.8.2.tgz#d7b033c00485d02695baf0044f4eacda3fc961a3"
 
 xml-name-validator@^3.0.0:
   version "3.0.0"

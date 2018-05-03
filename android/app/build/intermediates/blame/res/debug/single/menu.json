@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/sinem_derman/PickApp/android/app/build/intermediates/res/merged/debug/menu/search_item.xml",
+        "source": "/Users/sinem_derman/PickApp/node_modules/react-native-navigation/android/app/build/intermediates/packaged_res/debug/menu/search_item.xml"
+    },
+    {
+        "merged": "/Users/sinem_derman/PickApp/android/app/build/intermediates/res/merged/debug/menu/stub.xml",
+        "source": "/Users/sinem_derman/PickApp/node_modules/react-native-navigation/android/app/build/intermediates/packaged_res/debug/menu/stub.xml"
+    }
+]

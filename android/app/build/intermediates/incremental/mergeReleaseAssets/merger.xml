@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config=":react-native-navigation"><source path="/Users/sinem_derman/PickApp/node_modules/react-native-navigation/android/app/build/intermediates/packagedAssets/release"/></dataSet><dataSet config="main"><source path="/Users/sinem_derman/PickApp/android/app/src/main/assets"/><source path="/Users/sinem_derman/PickApp/android/app/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/sinem_derman/PickApp/android/app/src/release/assets"/></dataSet></merger>
